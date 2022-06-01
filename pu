@@ -1,0 +1,5 @@
+#!/bin/bash
+
+CUR_BR=$(git rev-parse --abbrev-ref HEAD)
+git push --set-upstream origin $CUR_BR
+
